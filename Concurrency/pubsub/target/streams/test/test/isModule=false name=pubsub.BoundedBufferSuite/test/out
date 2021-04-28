@@ -1,0 +1,3 @@
+[0m[[0minfo[0m] [0m[32mBoundedBufferSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should work in a sequential setting[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should work when Thread 1: `put(1)`, Thread 2: `take` and a buffer of size 1[0m[0m

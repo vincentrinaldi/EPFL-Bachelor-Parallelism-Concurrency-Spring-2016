@@ -1,0 +1,27 @@
+eclipse
+exit
+test
+exit
+test
+exit
+test
+exit
+eclipse
+test
+sbt clean
+clean
+test
+clean
+exit
+test
+test -deprecation
+-deprecation
+deprecation
+test
+exit
+test
+exit
+test
+exit
+test
+exit

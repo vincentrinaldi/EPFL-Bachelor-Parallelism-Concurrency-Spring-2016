@@ -1,0 +1,92 @@
+eclipse
+runMain reductions.ParallelCountChangeRunner
+exit
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.LineOfSightRunner
+runMain reductions.ParallelParenthesesBalancingRunner
+runMain reductions.ParallelCountChangeRunner
+test
+if (chars(idx) == '(') {
+          traverse(idx + 1, until, arg1 + 1, arg2)
+        } else if (chars(idx) == ')') {
+          if (arg1 == 0) traverse(idx + 1, until, arg1, arg2 + 1)
+          else traverse(idx + 1, until, arg1 - 1, arg2)
+        } else {
+          traverse(idx + 1, until, arg1, arg2)
+        }
+test
+runMain reductions.ParallelCountChangeRunner
+test
+runMain reductions.LineOfSightRunner
+submit vincent.rinaldi@epfl.ch cJxqBEppEiMemM5y
+test
+runMain reductions.ParallelCountChangeRunner
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.LineOfSightRunner
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.ParallelCountChangeRunner
+runMain reductions.LineOfSightRunner
+runMain reductions.ParallelCountChangeRunner
+runMain reductions.LineOfSightRunner
+runMain reductions.ParallelCountChangeRunner
+test
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+submit vincent.rinaldi@epfl.ch cJxqBEppEiMemM5y
+runMain reductions.ParallelCountChangeRunner
+runMain reductions.LineOfSightRunner
+test
+runMain ParallelCountChangeRunner
+runMain reductionsParallelCountChangeRunner
+runMain reductions.ParallelCountChangeRunner
+runMain reductions.LineOfSightRunner
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.ParallelParenthesisBalancingRunner
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.ParallelParenthesesBalancingRunner
+runMain reductions.LignOfSightRunner
+runMain reductions.LineOfSightRunner
+runMain reductions.ParallelParenthesesBalancingRunner
+runMain reductions.ParallelCountChangeRunner
+test
+runMain reductions.ParallelCountChangeRunner
+runMain reductions.ParallelParenthesesBalancingRunner
+runMain reductions.LineOfSightRunner
+submit vincent.rinaldi@epfl.ch cJxqBEppEiMemM5y
+test
+runMain reductions.LineOfSightRunner
+submit vincent.rinaldi@epfl.ch cJxqBEppEiMemM5y
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.LineOfSightRunner
+test
+runMain reductions.LineOfSightRunner
+test
+runMain reductions.LineOfSightRunner
+submit vincent.rinaldi@epfl.ch cJxqBEppEiMemM5y
+exit
+test
+runMain reductions.LineOfSightRunner
+submit vincent.rinaldi@epfl.ch cJxqBEppEiMemM5y
+test
+runMain reductions.LineOfSightRunner
+submit vincent.rinaldi@epfl.ch cJxqBEppEiMemM5y
+test
+runMain reductions.LineOfSightRunner
+test
+runMain reductions.LineOfSightRunner
+submit vincent.rinaldi@epfl.ch cJxqBEppEiMemM5y
+exit

@@ -1,0 +1,8 @@
+eclipse
+exit
+test
+runMain kmeans.KMeansRunner
+test
+runMain kmeans.KMeansRunner
+submit vincent.rinaldi@epfl.ch Na4JFZYlOuj5s2sN
+exit

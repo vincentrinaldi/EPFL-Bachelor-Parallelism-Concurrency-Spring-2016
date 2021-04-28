@@ -1,0 +1,25 @@
+eclipse
+exit
+test
+exit
+test
+runMain barneshut.BarnesHut
+submit vincent.rinaldi@epfl.ch 30J3XAULRgCiJ8In
+test
+runMain barneshut.BarnesHut
+submit vincent.rinaldi@epfl.ch 30J3XAULRgCiJ8In
+test
+runMain barneshut.BarnesHut
+submit vincent.rinaldi@epfl.ch 30J3XAULRgCiJ8In
+test
+runMain barneshut.BarnesHut
+submit vincent.rinaldi@epfl.ch 30J3XAULRgCiJ8In
+test
+runMain barneshut.BarnesHut
+submit vincent.rinaldi@epfl.ch 30J3XAULRgCiJ8In
+test
+runMain barneshut.BarnesHut
+submit vincent.rinaldi@epfl.ch 30J3XAULRgCiJ8In
+exit
+test
+exit

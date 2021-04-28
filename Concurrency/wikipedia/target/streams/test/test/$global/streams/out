@@ -1,0 +1,18 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(wikipedia.WikipediaSuite, sbt.ForkMain$SubclassFingerscan@2d6c73b1, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mWikipediaSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- 'occurrencesOfLang' should work for (specific) RDD with one element[0m[0m
+[0m[[0minfo[0m] [0m[32m- 'rankLangs' should work for RDD with two elements[0m[0m
+[0m[[0minfo[0m] [0m[32m- 'makeIndex' creates a simple index with two entries[0m[0m
+[0m[[0minfo[0m] [0m[32m- 'rankLangsUsingIndex' should work for a simple RDD with three elements[0m[0m
+[0m[[0minfo[0m] [0m[32m- 'rankLangsReduceByKey' should work for a simple RDD with four elements[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 5 events.[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 6 seconds, 923 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	wikipedia.WikipediaSuite[0m

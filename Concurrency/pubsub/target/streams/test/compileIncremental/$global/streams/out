@@ -1,0 +1,36 @@
+[0m[[0mdebug[0m] [0mThe instrumentation.Scheduler source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	isFull, isEmpty, getIndex.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) instrumentation.Scheduler: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) instrumentation.Scheduler.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in C:\Users\Vincent\Documents\Etudes EPFL\2ème Année\2015-2016 2ème Semestre\Parallelism and Concurrency\parcon-group62\src\test\scala\BoundedBufferSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe instrumentation.SchedulableBoundedBuffer source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	isFull, isEmpty, getIndex.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) instrumentation.SchedulableBoundedBuffer: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) instrumentation.SchedulableBoundedBuffer.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in C:\Users\Vincent\Documents\Etudes EPFL\2ème Année\2015-2016 2ème Semestre\Parallelism and Concurrency\parcon-group62\src\test\scala\BoundedBufferSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe pubsub.collection.BoundedBuffer source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	getIndex, isEmpty, isFull.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) pubsub.collection.BoundedBuffer: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) pubsub.collection.BoundedBuffer.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in C:\Users\Vincent\Documents\Etudes EPFL\2ème Année\2015-2016 2ème Semestre\Parallelism and Concurrency\parcon-group62\src\test\scala\BoundedBufferSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set(NamesChange(instrumentation.Scheduler,ModifiedNames(regularNames = isFull, isEmpty, getIndex, implicitNames = )), NamesChange(instrumentation.SchedulableBoundedBuffer,ModifiedNames(regularNames = isFull, isEmpty, getIndex, implicitNames = )), NamesChange(pubsub.collection.BoundedBuffer,ModifiedNames(regularNames = getIndex, isEmpty, isFull, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m

@@ -1,0 +1,16 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(actorbintree.BinaryTreeSuite, sbt.ForkMain$SubclassFingerscan@6ee1ddc5, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mBinaryTreeSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- proper inserts and lookups[0m[0m
+[0m[[0minfo[0m] [0m[32m- instruction example[0m[0m
+[0m[[0minfo[0m] [0m[32m- behave identically to built-in set (includes GC)[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 543 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	actorbintree.BinaryTreeSuite[0m

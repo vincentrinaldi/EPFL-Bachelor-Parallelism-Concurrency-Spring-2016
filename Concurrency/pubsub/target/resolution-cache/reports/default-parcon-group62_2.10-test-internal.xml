@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="parcon-group62_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160411201910"/>
+	<dependencies>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.1" status="release" pubdate="20100225132158" resolver="public" artresolver="public" homepage="http://junit.org" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="successful" details="" size="949" time="71" location="C:\Users\Vincent\.ivy2\cache\junit\junit\ivy-4.8.1.xml" searched="true" original-local-location="C:\Users\Vincent\.ivy2\cache\junit\junit\ivy-4.8.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.8.1/junit-4.8.1.pom"/>
+				<caller organisation="default" name="parcon-group62_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="4.8.1" rev-constraint-default="4.8.1" rev-constraint-dynamic="4.8.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="successful" details="" size="237047" time="112" location="C:\Users\Vincent\.ivy2\cache\junit\junit\jars\junit-4.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.1/junit-4.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest_2.10">
+			<revision name="2.0" status="release" pubdate="20131031171328" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="7154" time="107" location="C:\Users\Vincent\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-2.0.xml" searched="true" original-local-location="C:\Users\Vincent\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.pom"/>
+				<caller organisation="default" name="parcon-group62_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalatest_2.10" type="jar" ext="jar" status="successful" details="" size="7158439" time="1082" location="C:\Users\Vincent\.ivy2\cache\org.scalatest\scalatest_2.10\jars\scalatest_2.10-2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.0" status="release" pubdate="20121220082932" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="2">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+			"/>
+				<metadata-artifact status="successful" details="" size="1840" time="76" location="C:\Users\Vincent\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml" searched="true" original-local-location="C:\Users\Vincent\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="3149351" time="498" location="C:\Users\Vincent\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20140318224629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master, compile(*), runtime(*), master(compile)" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2517" time="0" location="C:\Users\Vincent\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
+				<caller organisation="default" name="parcon-group62_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="C:\Users\Vincent\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="-1">
+				<evicted-by rev="2.10.4"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

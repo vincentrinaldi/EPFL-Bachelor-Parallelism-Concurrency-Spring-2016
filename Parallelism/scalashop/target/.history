@@ -1,0 +1,8 @@
+eclipse
+runMain
+runMain scalashop.VerticalBoxBlurRunner
+runMain scalashop.HorizontalBoxBlurRunner
+runMain scalashop.ScalaShop
+submit vincent.rinaldi@epfl.ch 7TaphzhN232EW48b
+test
+submit vincent.rinaldi@epfl.ch 7TaphzhN232EW48b

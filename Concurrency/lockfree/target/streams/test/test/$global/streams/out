@@ -1,0 +1,20 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(lockfree.SortedListSuite, sbt.ForkMain$SubclassFingerscan@71506a1e, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mSortedListSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should work when 1, 2, and 3 are inserted sequentially[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should work when 3, 2, and 1 are inserted sequentially[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should work when duplicate elements are inserted sequentially[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return [1,4,5] when from [1,2,3,5], a thread removes 3, 2 and then inserts 4[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should work when a random list of 100 elements are inserted sequentially[0m[0m
+[0m[[0minfo[0m] [0m[32m- should insert in parallel 1, 2 and 3 in the list [0, 4][0m[0m
+[0m[[0minfo[0m] [0m[32m- should return List(true, false) when the first thread deletes 2 and the second one deletes 4 from SortedList(1, 2, 3)[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 7 events.[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 15 seconds, 94 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	lockfree.SortedListSuite[0m
